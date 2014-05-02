@@ -1,0 +1,7 @@
+# Some Github defaults for local convenience 
+pygments: true
+safe: true
+lsi: false
+
+permalink: /:categories/:title.html
+auto: true
