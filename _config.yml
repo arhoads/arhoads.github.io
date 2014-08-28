@@ -4,4 +4,3 @@ safe: true
 lsi: false
 
 permalink: /:categories/:title.html
-auto: true
