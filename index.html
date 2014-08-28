@@ -1,20 +1,49 @@
----
-layout: default
-title: Portfolio
----
- 
-<section class="content">
-  <h2>Portfolio</h2>
-</section>
- 
-<ul class="entries">
-  {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">
-      <img src="{{ post.image }}" />
-      <h3>{{ post.title }}</h3>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='//fonts.googleapis.com/css?family=Raleway:700&text=pkomebtdcrnéaiulsgh' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald:300&text=AaedhonsrwR' rel='stylesheet' type='text/css'>
+  <link href="static/stylesheet.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body class="blue">
+
+<div class="container">
+  <h1 id="name"><u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Andrew Rhoads&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u></h1>
+  <h4 id="sub-text">programmer</h4>
+
+  <div class="icons-container">
+    <a class="btn icon-button" href="https://github.com/arhoads">
+      <span class="icon fa fa-github"></span>
+      <br><span class="custom-word">github</span>
     </a>
-  </li>
- 
-  {% endfor %}
-</ul>
+
+    <a class="btn icon-button" href="https://bitbucket.org/rustysalad">
+      <span class="icon fa fa-bitbucket"></span>
+      <br><span class="custom-word">bitbucket</span>
+    </a>
+
+    <a class="btn icon-button" href="http://www.linkedin.com/in/andrewcrhoads">
+      <span class="icon fa fa-linkedin-square"></span>
+      <br><span class="custom-word ">linkedIn</span>
+    </a>
+
+    <a class="btn icon-button" href="static/AndrewRhoads_resume.pdf">
+      <span class="icon fa fa-file-pdf-o"></span>
+      <br><span class="custom-word ">résumé</span>
+    </a>
+  </div>
+</div>
+
+
+<script>
+
+</script>
+
+</body>
+</html>

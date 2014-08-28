@@ -1,0 +1,115 @@
+#header {
+    height: 800px;
+    width:100%;
+    display: table;
+    table-layout: fixed;
+    text-align: center;
+}
+
+.blue {
+    background-color: #53777A;
+    border-color: #53777A;
+}
+
+.purple {
+    background-color: #542437;
+    border-color: #542437;
+}
+
+.red {
+    background-color: #C02942;
+    border-color: #C02942;
+}
+
+.orange {
+    background-color: #D95B43;
+    border-color: #D95B43;
+}
+
+.yellow {
+    background-color: #ECD078;
+    border-color: #ECD078;
+}
+
+.rectangle {
+    height: 100%;
+    width:100%;
+}
+
+.container {
+    display: table;
+    table-layout: fixed;
+    text-align: center;  
+}
+
+#name {
+    padding-top: 150px;
+    text-shadow: 1px 1px 25px rgba(84,36,55, 0.7);  
+    word-spacing: 10pt;
+    letter-spacing: -1pt;
+    color: #ECD078;
+    font-size: 90px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#sub-text {
+    color: #ECD078;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif; 
+    padding-bottom: 35px;
+
+}
+
+.rounded {
+    border-radius: 3px;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-button {
+
+    border-radius: 3px;
+    width: 100px;
+    height: 100px;
+}
+
+.icon-container {
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.icon {
+    color: #542437;
+    font-size: 70px;
+}
+
+.icon:hover { 
+    text-shadow: 0px 0px 35px #ECD078;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.five-oclock-shadow {
+    text-shadow: -1px 0px 1px rgba(140, 150, 150, 1);
+}
+
+.custom-word {
+    font-family: 'Raleway', sans-serif;   
+    color: #542437;
+}
+
+a:link {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:active {
+    color: inherit;
+}
