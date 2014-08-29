@@ -1,9 +1,6 @@
 #header {
     height: 800px;
     width:100%;
-    display: table;
-    table-layout: fixed;
-    text-align: center;
 }
 
 .blue {
@@ -37,8 +34,6 @@
 }
 
 .container {
-    display: table;
-    table-layout: fixed;
     text-align: center;  
 }
 
@@ -68,14 +63,12 @@
 }
 
 .icon-button {
-
     border-radius: 3px;
     width: 100px;
     height: 100px;
 }
 
 .icon-container {
-    position: relative;
     top: 50%; 
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -84,17 +77,15 @@
 .icon {
     color: #542437;
     font-size: 70px;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    transition: all .2s ease-in;
 }
 
-.icon:hover { 
-    text-shadow: 0px 0px 35px #ECD078;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}
 
-.five-oclock-shadow {
-    text-shadow: -1px 0px 1px rgba(140, 150, 150, 1);
+.icon:hover {
+    text-shadow: 0px 0px 30px #ECD078;
+    background-color: transparent;
 }
 
 .custom-word {
